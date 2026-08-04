@@ -25,6 +25,30 @@ streamlit run app.py
 
 Then open the local Streamlit URL shown in the terminal.
 
+## LLM-assisted app variant
+
+Use the new LLM app entrypoint when you want to demo real model-backed synthesis on top of deterministic scoring:
+
+```bash
+streamlit run app_llm.py
+```
+
+Recommended environment variables:
+
+- `OPENAI_API_KEY` or `LLM_API_KEY`: API key for OpenAI-compatible chat completion endpoint
+- `LLM_MODEL` (optional): defaults to `gpt-4o-mini`
+- `LLM_BASE_URL` (optional): defaults to `https://api.openai.com/v1`
+
+Windows PowerShell example:
+
+```powershell
+$env:OPENAI_API_KEY="<your-key>"
+$env:LLM_MODEL="gpt-4o-mini"
+c:/Mutli-Agent_ai_demo/.venv/Scripts/python.exe -m streamlit run c:/Mutli-Agent_ai_demo/app_llm.py
+```
+
+If no API key is configured, the app still runs and shows deterministic ranking plus literature retrieval, but LLM synthesis calls are disabled.
+
 ## Demo mode
 
 The app uses curated, illustrative public-data summaries for IPF. It avoids live API dependencies so the Monday demonstration remains stable. All scores are illustrative and are not scientific or medical recommendations.
