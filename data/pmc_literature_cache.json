@@ -1,0 +1,142 @@
+{
+  "IL11": {
+    "query": "(IL11 \"Idiopathic Pulmonary Fibrosis\") AND SRC:PMC",
+    "results": [
+      {
+        "source": "Europe PMC",
+        "title": "A Scoping Review of Emerging Treatments in the Pipeline for Idiopathic Pulmonary Fibrosis: Future Perspectives",
+        "year": "2026",
+        "pmcid": "PMC13297233",
+        "authors": "Novara M, Chirulli M, Vitulo P, Carollo A, Provenzani A.",
+        "support_type": "Supporting",
+        "evidence_snippet": "Review article describing emerging IPF treatment directions including cytokine and pathway-focused intervention opportunities.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13297233/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "Exploring TGF-beta Signaling in Cancer Progression: Prospects and Therapeutic Strategies",
+        "year": "2025",
+        "pmcid": "PMC11846535",
+        "authors": "Sheikh K, Amjad M, Irfan M, Anjum S, Majeed T, Riaz M, Jassim A, Sharif E, Ibrahim W.",
+        "support_type": "Contextual",
+        "evidence_snippet": "Mechanism-focused synthesis around fibrotic and growth-factor signaling provides contextual pathway evidence relevant to anti-fibrotic hypothesis generation.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846535/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "Deucravacitinib in dermatology: current indication and existing off-label data",
+        "year": "2026",
+        "pmcid": "PMC13299356",
+        "authors": "D'Agostino M, Potestio L, Tommasino N, Megna M.",
+        "support_type": "Context/possible contradiction",
+        "evidence_snippet": "Off-disease evidence acts as a negative-control signal to avoid overclaiming disease-specific relevance.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299356/"
+      }
+    ]
+  },
+  "TGFB1": {
+    "query": "(TGFB1 \"Idiopathic Pulmonary Fibrosis\") AND SRC:PMC",
+    "results": [
+      {
+        "source": "Europe PMC",
+        "title": "TGF-beta Signaling as a Pathological Continuum Linking Idiopathic Pulmonary Fibrosis and Lung Cancer",
+        "year": "2026",
+        "pmcid": "PMC12985053",
+        "authors": "Huang K, Wang L, Tsai F.",
+        "support_type": "Supporting",
+        "evidence_snippet": "Directly discusses TGF-beta pathway roles in IPF pathology with translational framing.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12985053/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "Lactate Promotes Endothelial-Mesenchymal Transition via Mediating Twist1 Lactylation in Hypoxic Pulmonary Hypertension",
+        "year": "2026",
+        "pmcid": "PMC12984667",
+        "authors": "Li X, Wang F, Liu N, Liu Y, Yu W, Tang M.",
+        "support_type": "Contextual",
+        "evidence_snippet": "Pulmonary remodeling biology provides adjacent mechanistic context, though disease focus is not IPF-specific.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12984667/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "Genetic Profiling of Primary Versus Metastatic Ewing Sarcoma for Therapeutic Target Identification",
+        "year": "2026",
+        "pmcid": "PMC13302273",
+        "authors": "Mitchell C, Voskamp S, Geagea E, Anand D, Nelson J, Lovejoy J.",
+        "support_type": "Low relevance",
+        "evidence_snippet": "Non-IPF oncology study included to demonstrate filtering and relevance handling in the literature agent.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13302273/"
+      }
+    ]
+  },
+  "SPP1": {
+    "query": "(SPP1 \"Idiopathic Pulmonary Fibrosis\") AND SRC:PMC",
+    "results": [
+      {
+        "source": "Europe PMC",
+        "title": "Immunological mechanisms and therapeutic approaches in pulmonary fibrosis",
+        "year": "2026",
+        "pmcid": "PMC13058739",
+        "authors": "Nell L, Hendriks R, Wijsenbeek M, Corneth O, Koudstaal T.",
+        "support_type": "Supporting",
+        "evidence_snippet": "Reviews immune-cell contributions and fibrosis pathways, including macrophage-linked mechanisms relevant to SPP1 hypotheses.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13058739/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "SPP1+ Macrophages and the Orchestration of Spatially Organized Immunosuppression in Cancer",
+        "year": "2026",
+        "pmcid": "PMC12938048",
+        "authors": "Li F, Xu D, Tang Z, Lai Y, Liu Q, Liang H, Dong H, Song J.",
+        "support_type": "Contextual",
+        "evidence_snippet": "SPP1 macrophage-state biology is relevant for mechanism transfer but requires disease-specific validation for IPF.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12938048/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "TGF-beta Signaling as a Pathological Continuum Linking Idiopathic Pulmonary Fibrosis and Lung Cancer",
+        "year": "2026",
+        "pmcid": "PMC12985053",
+        "authors": "Huang K, Wang L, Tsai F.",
+        "support_type": "Contextual",
+        "evidence_snippet": "Fibrotic signaling evidence provides pathway-level support for macrophage-fibroblast interaction hypotheses.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12985053/"
+      }
+    ]
+  },
+  "MUC5B": {
+    "query": "(MUC5B \"Idiopathic Pulmonary Fibrosis\") AND SRC:PMC",
+    "results": [
+      {
+        "source": "Europe PMC",
+        "title": "Decoding Dysregulation of DNA Methylation in Epigenetics of Idiopathic Pulmonary Fibrosis",
+        "year": "2026",
+        "pmcid": "PMC13100892",
+        "authors": "Wu G, Tang X, Zhou Y, Wang Y, Yang D, Zhang L.",
+        "support_type": "Supporting",
+        "evidence_snippet": "IPF epigenetics context supports genotype-linked epithelial and mucosal biology investigation for MUC5B programs.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13100892/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "Immunological mechanisms and therapeutic approaches in pulmonary fibrosis",
+        "year": "2026",
+        "pmcid": "PMC13058739",
+        "authors": "Nell L, Hendriks R, Wijsenbeek M, Corneth O, Koudstaal T.",
+        "support_type": "Contextual",
+        "evidence_snippet": "Cross-cutting fibrosis biology provides context but does not on its own prove direct MUC5B intervention efficacy.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13058739/"
+      },
+      {
+        "source": "Europe PMC",
+        "title": "TGF-beta Signaling as a Pathological Continuum Linking Idiopathic Pulmonary Fibrosis and Lung Cancer",
+        "year": "2026",
+        "pmcid": "PMC12985053",
+        "authors": "Huang K, Wang L, Tsai F.",
+        "support_type": "Contextual",
+        "evidence_snippet": "Signaling-level evidence strengthens disease-mechanism context but requires target-specific validation studies.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12985053/"
+      }
+    ]
+  }
+}

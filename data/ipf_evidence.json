@@ -1,0 +1,129 @@
+{
+  "disease": {
+    "name": "Idiopathic Pulmonary Fibrosis",
+    "id": "MONDO:0008345",
+    "description": "A progressive fibrotic lung disease used here as a public-data demonstration scenario."
+  },
+  "targets": [
+    {
+      "target": "IL11",
+      "gene_id": "HGNC:5966",
+      "genetics": 0.78,
+      "mechanism": 0.94,
+      "omics": 0.90,
+      "tractability": 0.72,
+      "clinical": 0.42,
+      "safety": 0.69,
+      "differentiation": 0.81,
+      "support": [
+        "Strong mechanistic association with fibroblast activation and extracellular-matrix deposition.",
+        "Expression and pathway evidence support a role in fibrotic remodeling.",
+        "Potential for differentiated, tissue-focused intervention strategies."
+      ],
+      "contradictions": [
+        "Limited late-stage human clinical validation for direct IL11 pathway inhibition.",
+        "Translation from preclinical fibrosis models remains an evidence gap."
+      ],
+      "compounds": ["Illustrative anti-IL11 antibody program", "Illustrative IL11RA antagonist"],
+      "experiments": [
+        "Validate target engagement in human IPF precision-cut lung slices.",
+        "Compare fibroblast-selective versus systemic pathway inhibition.",
+        "Assess translational biomarkers linked to matrix remodeling."
+      ],
+      "citations": [
+        {"source": "PubMed", "title": "Curated public literature set: IL11 and fibrosis", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=IL11+fibrosis"},
+        {"source": "Open Targets", "title": "Target-disease evidence lookup", "url": "https://platform.opentargets.org/"}
+      ]
+    },
+    {
+      "target": "TGFB1",
+      "gene_id": "HGNC:11766",
+      "genetics": 0.72,
+      "mechanism": 0.98,
+      "omics": 0.95,
+      "tractability": 0.64,
+      "clinical": 0.61,
+      "safety": 0.38,
+      "differentiation": 0.45,
+      "support": [
+        "Central regulator of fibrotic signaling and extracellular-matrix production.",
+        "Extensive literature and pathway evidence across fibrotic diseases.",
+        "Multiple intervention strategies demonstrate target relevance."
+      ],
+      "contradictions": [
+        "Broad pathway inhibition may create immune, repair, and homeostasis liabilities.",
+        "Differentiation is challenging because the pathway is heavily investigated."
+      ],
+      "compounds": ["Illustrative TGF-beta neutralizing antibody", "Illustrative receptor kinase inhibitor"],
+      "experiments": [
+        "Test localized delivery to reduce systemic pathway suppression.",
+        "Identify response biomarkers that separate anti-fibrotic activity from immune effects.",
+        "Evaluate combination strategies with approved anti-fibrotic therapy."
+      ],
+      "citations": [
+        {"source": "PubMed", "title": "Curated public literature set: TGF-beta and IPF", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=TGFB1+idiopathic+pulmonary+fibrosis"},
+        {"source": "Reactome", "title": "TGF-beta signaling pathway", "url": "https://reactome.org/"}
+      ]
+    },
+    {
+      "target": "SPP1",
+      "gene_id": "HGNC:11255",
+      "genetics": 0.66,
+      "mechanism": 0.84,
+      "omics": 0.93,
+      "tractability": 0.68,
+      "clinical": 0.36,
+      "safety": 0.63,
+      "differentiation": 0.76,
+      "support": [
+        "Single-cell and expression studies associate SPP1-positive macrophage states with fibrosis.",
+        "Connects inflammatory cell states to fibroblast activation and tissue remodeling.",
+        "Potential biomarker and therapeutic-target opportunities."
+      ],
+      "contradictions": [
+        "Causal contribution may differ across disease stages and macrophage subsets.",
+        "Direct intervention strategy and patient-selection approach need validation."
+      ],
+      "compounds": ["Illustrative osteopontin neutralizing antibody"],
+      "experiments": [
+        "Map SPP1-positive macrophage abundance across disease stages.",
+        "Test macrophage-fibroblast co-culture response to pathway inhibition.",
+        "Evaluate SPP1 as a pharmacodynamic and patient-stratification biomarker."
+      ],
+      "citations": [
+        {"source": "PubMed", "title": "Curated public literature set: SPP1 macrophages and fibrosis", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=SPP1+macrophage+pulmonary+fibrosis"},
+        {"source": "UniProt", "title": "SPP1 protein record", "url": "https://www.uniprot.org/"}
+      ]
+    },
+    {
+      "target": "MUC5B",
+      "gene_id": "HGNC:7516",
+      "genetics": 0.97,
+      "mechanism": 0.71,
+      "omics": 0.78,
+      "tractability": 0.41,
+      "clinical": 0.30,
+      "safety": 0.55,
+      "differentiation": 0.70,
+      "support": [
+        "Strong human genetic association with IPF susceptibility.",
+        "Biological relevance to airway mucus and epithelial homeostasis.",
+        "High value for patient stratification and disease-biology research."
+      ],
+      "contradictions": [
+        "Strong association does not automatically imply that direct inhibition is therapeutic.",
+        "Mucosal defense and epithelial function create tractability and safety concerns."
+      ],
+      "compounds": ["No direct clinical compound included in this curated demo"],
+      "experiments": [
+        "Separate causal disease mechanisms from risk-marker utility.",
+        "Evaluate genotype-specific epithelial phenotypes in human organoids.",
+        "Assess biomarker and stratification value before direct-target investment."
+      ],
+      "citations": [
+        {"source": "PubMed", "title": "Curated public literature set: MUC5B variant and IPF", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=MUC5B+variant+IPF"},
+        {"source": "Open Targets Genetics", "title": "Genetic association exploration", "url": "https://genetics.opentargets.org/"}
+      ]
+    }
+  ]
+}
